@@ -58,19 +58,20 @@ a{
 .text-l{
   width: 30%;
   background: rgba(255, 255, 200, 0.5);
-  height: 1000px;
+  height: 1500px;
   float: left;
   border-radius: 50px 0 0 50px;
 }
 .text-r{
   width: 70%;
   background: rgba(200, 25, 200, 0.5);
-  height: 1000px;
+  height: 1500px;
   float: right;
   border-radius: 0 50px 50px 0;
 }
 
 footer{
+margin-top:500px;
   height: 100px;
   background: linear-gradient(transparent,deeppink);
   font-weight: 900;
