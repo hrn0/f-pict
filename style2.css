@@ -69,6 +69,7 @@ a{
 }
 
 footer{
+  width: 750px;
   height: 100px;
   background: linear-gradient(transparent,deeppink);
   font-weight: 900;
