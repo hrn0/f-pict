@@ -5,4 +5,6 @@ text.style.margin = `200px ${wmg2}px 50px`;
 if(navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/i)){
   text.style.backgroundColor = 'pink';
   document.getElementById('css').href = 'style2.css';
+}else{
+  text.style.backgroundColor = 'blue';
 }
