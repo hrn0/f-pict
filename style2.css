@@ -5,27 +5,27 @@ body{
 }
 header{
   margin-top: -200px;
-  width: 100%;
+  width: 750px;
   position: fixed;
 }
 .header{
-  height: 200px;
+  height: 160px;
   background: rgba(255, 255, 255, 0.9);
 }
 .title{
     text-align: center;
     line-height: 110px;
-    font-size: 90px;
+    font-size: 95px;
     border-bottom: 3px solid ;
     border-image: linear-gradient(to right,skyblue,hotpink);
     border-image-slice: 1;
-    width: 330px;
+    width: 400px;
     margin: 0 auto;
 }
 .hbot{
-  background: url(hhh.png);
-  background-position: 0 10px;
-  height: 10px;
+  background: url(hhh3.png);
+  background-position: 0 25px;
+  height: 25px;
 }
 nav{
   width: 310px;
@@ -52,22 +52,20 @@ a{
 }
 
 #text{
-  width: 1000px;
-  height: 1000px;
+  width: 750px;
+  height: 2000px;
 }
 .text-l{
-  width: 30%;
+  width: 100%;
   background: rgba(255, 255, 200, 0.5);
   height: 1000px;
-  float: left;
-  border-radius: 50px 0 0 50px;
+  border-radius: 50px 50px 0 0;
 }
 .text-r{
-  width: 70%;
+  width: 100%;
   background: rgba(200, 25, 200, 0.5);
   height: 1000px;
-  float: right;
-  border-radius: 0 50px 50px 0;
+  border-radius: 0 0 50px 50px;
 }
 
 footer{
