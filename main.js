@@ -7,4 +7,5 @@ if(navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/i)){
   document.getElementById('css').href = 'style2.css';
 }else{
   text.style.backgroundColor = 'blue';
+  document.getElementById('css').href = 'style.css';
 }
