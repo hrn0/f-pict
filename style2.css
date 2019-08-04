@@ -4,7 +4,7 @@ body{
   background-attachment: fixed;
 }
 header{
-  margin-top: -200px;
+  margin-top: -400px;
   width: 100%;
   position: fixed;
 }
@@ -26,10 +26,9 @@ header{
   background: url(hhh.png);
   background-position: 0 10px;
   height: 10px;
-  transform: scale(2);
 }
 nav{
-  width: 310px;
+  width: 400px;
   margin: 0 auto;
 }
 ul{
