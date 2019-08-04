@@ -1,0 +1,80 @@
+body{
+  background: url(bac.png) 0 0 no-repeat,hotpink;
+  margin: 0;
+  background-attachment: fixed;
+}
+header{
+  margin-top: -200px;
+  width: 100%;
+  position: fixed;
+}
+.header{
+  height: 300px;
+  background: rgba(255, 255, 255, 0.9);
+}
+.title{
+    text-align: center;
+    line-height: 100px;
+    font-size: 65px;
+    border-bottom: 3px solid ;
+    border-image: linear-gradient(to right,skyblue,hotpink);
+    border-image-slice: 1;
+    width: 230px;
+    margin: 0 auto;
+    transform: scale(1.5);
+}
+.hbot{
+  background: url(hhh.png);
+  background-position: 0 10px;
+  height: 10px;
+  transform: scale(2);
+}
+nav{
+  width: 310px;
+  margin: 0 auto;
+}
+ul{
+  margin: 10px auto;
+}
+li{
+  float: left;
+  list-style: none;
+  margin: 0 10px;
+}
+li:hover{
+  border-bottom: 3px solid #555;
+  transition: 0.3s;
+}
+#select{
+  border-bottom: 3px dotted hotpink;
+}
+a{
+  color: #333;
+  font-size: 20px;
+}
+
+#text{
+  width: 1000px;
+  height: 1000px;
+}
+.text-l{
+  width: 30%;
+  background: rgba(255, 255, 200, 0.5);
+  height: 1000px;
+  float: left;
+  border-radius: 50px 0 0 50px;
+}
+.text-r{
+  width: 70%;
+  background: rgba(200, 25, 200, 0.5);
+  height: 1000px;
+  float: right;
+  border-radius: 0 50px 50px 0;
+}
+
+footer{
+  height: 100px;
+  background: linear-gradient(transparent,deeppink);
+  font-weight: 900;
+  line-height: 100px;
+}
