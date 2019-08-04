@@ -1,20 +1,20 @@
 body{
-  //background: url(bac.png) 0 0 no-repeat,hotpink;
+  background: url(bac.png) 0 0 no-repeat,hotpink;
   margin: 0;
   background-attachment: fixed;
 }
 header{
-  margin-top: -400px;
+  margin-top: -200px;
   width: 100%;
   position: fixed;
 }
 .header{
-  height: 300px;
+  height: 200px;
   background: rgba(255, 255, 255, 0.9);
 }
 .title{
     text-align: center;
-    line-height: 200px;
+    line-height: 110px;
     font-size: 90px;
     border-bottom: 3px solid ;
     border-image: linear-gradient(to right,skyblue,hotpink);
@@ -28,7 +28,7 @@ header{
   height: 10px;
 }
 nav{
-  width: 400px;
+  width: 310px;
   margin: 0 auto;
 }
 ul{
