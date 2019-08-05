@@ -8,8 +8,4 @@ if(navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/i)){
   text.style.backgroundColor = 'pink';
   //document.getElementById('css').href = 'style2.css';
   window.location.href = 'index2.html';
-}else{
-  text.style.backgroundColor = 'blue';
-  //document.getElementById('css').href = 'style.css';
-  window.location.href = 'index.html';
 }
