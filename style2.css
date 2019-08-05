@@ -54,6 +54,7 @@ a{
 #text{
   width: 750px;
   height: 2000px;
+  margin: 200px auto 50px;
 }
 .text-l{
   width: 100%;
