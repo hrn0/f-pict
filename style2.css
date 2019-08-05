@@ -21,7 +21,6 @@ header{
     border-image-slice: 1;
     width: 400px;
     margin: 0 auto;
-    display: block;
     user-select: none;
 }
 #titletext{
