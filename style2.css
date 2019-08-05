@@ -52,7 +52,6 @@ a{
 }
 
 #text{
-  width: 750px;
   height: 2000px;
   margin: 200px auto 50px;
 }
@@ -70,7 +69,6 @@ a{
 }
 
 footer{
-  width: 750px;
   height: 100px;
   background: linear-gradient(transparent,deeppink);
   font-weight: 900;
