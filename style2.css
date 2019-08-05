@@ -1,5 +1,5 @@
 body{
-  background: url(bac2.png) 0 50% no-repeat,hotpink;
+  background: url(bac2.png) 0 0 no-repeat,hotpink;
   margin: 0;
   background-attachment: fixed;
 }
@@ -21,6 +21,11 @@ header{
     border-image-slice: 1;
     width: 400px;
     margin: 0 auto;
+    display: block;
+    user-select: none;
+}
+#titletext{
+  text-decoration: none;
 }
 .hbot{
   background: url(hhh3.png);
